@@ -1,0 +1,44 @@
+{
+  "name": "exel",
+  "version": "1.0.0",
+  "description": "exel",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaroslav1992-v/Exel.git"
+  },
+  "author": "yaroslav",
+  "browserslist": "> 0.25%, not dead",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaroslav1992-v/Exel/issues"
+  },
+  "homepage": "https://github.com/Yaroslav1992-v/Exel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "html-minimizer-webpack-plugin": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "core-js": "^3.9.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
